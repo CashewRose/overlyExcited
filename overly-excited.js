@@ -6,7 +6,7 @@ let newStatement = ["Thank", "goodness", "I", "took", "jumpstart", "or", "I", "w
     the array as the sole argument. It should iterate over the array
     and output the words to the browser console.
 */
-function addExcitement (theWordArray, punctuation) {
+let addExcitement = (theWordArray, punctuation) => {
 
     // Each time the for loop executes, you're going to add one more word to this string
     let buildMeUp = ""
